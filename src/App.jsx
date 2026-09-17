@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+﻿import { useEffect, useState } from "react";
 import "./App.css";
 
 const birthdayQuotes = {
@@ -377,7 +377,7 @@ const response = await fetch(
             </div>
 
             <img
-              src="/photos/birthday-bright.jpg"
+              src="/MehraruBirthday/photos/birthday-bright.jpg"
               alt="A special memory"
               className="photo-main"
             />
