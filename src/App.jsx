@@ -55,7 +55,7 @@ const submitAnswer = async () => {
   }
 
   try {
-    const response = await fetch("/api/answers", {
+    const response = await fetch("https://mehraru-birthday-api.onrender.com/api/answers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -90,7 +90,7 @@ const submitAnswer = async () => {
     try {
     
 const response = await fetch(
-  "http://127.0.0.1:8000/api/answers",        {
+  "https://mehraru-birthday-api.onrender.com/api/answers",        {
           headers: {
             "X-Owner-Password": password
           }
@@ -535,3 +535,4 @@ const response = await fetch(
 }
 
 export default App;
+
