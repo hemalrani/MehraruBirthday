@@ -16,7 +16,7 @@ DATA_DIR = os.environ.get("DATA_DIR", BASE_DIR)
 os.makedirs(DATA_DIR, exist_ok=True)
 
 DB = os.path.join(DATA_DIR, "answers.db")
-OWNER_PASSWORD = "Happy_birthday_16112007"
+OWNER_PASSWORD = os.environ.get("OWNER_PASSWORD", "")
 
 app = FastAPI(title="MehraruBirthday")
 
