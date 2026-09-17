@@ -1,0 +1,17 @@
+﻿node_modules/
+dist/
+.env
+.env.*
+!.env.example
+backend/__pycache__/
+*.pyc
+backend/answers.db
+
+answers.db
+public/music/
+backend/static/music/
+src/App.*backup.jsx
+src/App.*broken*.jsx
+src/App.corrupted-backup.jsx
+railway.toml
+src/App.before-*.jsx
